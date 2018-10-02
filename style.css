@@ -1,0 +1,102 @@
+/* Styles go here */
+:root{
+  --baseColor: #ffffffe7;
+  --layerColor: #193549;
+  --textColor: #fff;
+}
+
+html,body{
+  background:var(--baseColor);
+  font-family: 'Open Sans', sans-serif !important;
+  text-align: center;
+  margin : 0;
+  position: relative;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.fas{
+  color:var(--textColor);
+}
+
+/* .fas:hover{
+  color:#000;
+} */
+
+.vertical-nav-fixed{
+  background:var(--layerColor);
+  font-size:31px;
+  height:100%;
+  width:90px;
+  position:fixed;
+  overflow-x:hidden;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  z-index:1;
+  transition: 0.1s;
+}
+
+.vertical-nav-fixed ul{
+  margin:0;
+  padding:0;
+  margin:0 10px 0 10px;
+  list-style-type :none;
+  position: fixed;
+}
+
+.vertical-nav-fixed li{
+  padding:30px 0 30px 0;
+}
+
+.nav-options li a{
+  padding: 6px 8px 6px 16px;
+  text-decoration:none;
+  font-size:0.8em;
+  height: 25px
+  /* transition:0.4s; */
+  /* position: fixed; */
+}
+
+a.nav-item{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.nav-item img{
+  border-radius: 20px;
+  float: left;
+}
+
+.nav-item div:nth-child(2){
+  padding-left:10px;
+  color:var(--textColor);
+  font-size:0.9em;
+}
+
+.portfolio-window{
+  font-size:25px;
+  margin-left: 90px;
+}
+
+#main-about,#main-education,#main-skills,#main-work,#main-contact{
+  height: 100vh;
+  padding: 20px 0px 0px 50px;
+}
+
+/* Intro */
+
+.intro{
+  top:0;
+  min-height: 55vh;
+  padding-top:40vh;
+}
+
+.intro p{
+  color:#193549;
+  line-height: 3rem;
+}
