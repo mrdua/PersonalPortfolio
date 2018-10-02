@@ -34,8 +34,8 @@ if(screen.width >= 600){
       sidenav.style.boxShadow = '5px 5px 20px #1f1f1f';
       document.getElementById('logo').innerHTML ='Harmandeep Singh';
       document.getElementById('about').innerHTML =' About';
-      document.getElementById('education').innerHTML ='Education';
-      document.getElementById('work').innerHTML ='Work Experience';
+      // document.getElementById('education').innerHTML ='Education';
+      document.getElementById('project').innerHTML ='Projects';
       document.getElementById('skills').innerHTML ='Skills';
       document.getElementById('contact').innerHTML ='Contact';
   }
@@ -45,8 +45,8 @@ if(screen.width >= 600){
     sidenav.style.boxShadow = '0px 0px 0px white';
     document.getElementById('logo').innerHTML ='';
     document.getElementById('about').innerHTML ='';
-    document.getElementById('education').innerHTML ='';
-    document.getElementById('work').innerHTML ='';
+    // document.getElementById('education').innerHTML ='';
+    document.getElementById('project').innerHTML ='';
     document.getElementById('skills').innerHTML ='';
     document.getElementById('contact').innerHTML ='';
   }
